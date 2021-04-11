@@ -1,0 +1,13 @@
+{
+    "name": "WAAW Chrome Extension",
+    "description": "Automatically go to WAAW from a youtube video",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {},
+    "permissions": [
+        "tabs"
+    ]
+}
